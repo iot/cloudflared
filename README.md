@@ -80,3 +80,5 @@ To format the code and keep a good code quality use `make fmt` and `make lint`
 
 ### Mocks
 After changes on interfaces you might need to regenerate the mocks, so run `make mock`
+新增加前置代理，下面是使用方法
+# all_proxy=socks5://账号:密码@1.2.3.4:80 cloudflared tunnel run --token xxxx
